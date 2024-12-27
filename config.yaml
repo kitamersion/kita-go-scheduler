@@ -1,0 +1,10 @@
+logs:
+  enabled: false
+
+tasks:
+  - name: "Example Task 1"
+    schedule: "@every 10s"
+    command: "echo 'Task 1 executed'"
+  - name: "Example Task 2"
+    schedule: "0 * * * *"
+    command: "echo 'Task 2 executed at the start of the hour'"
